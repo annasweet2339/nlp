@@ -16,4 +16,4 @@ progress_bar.empty()
 # Streamlit widgets automatically run the script from top to bottom. Since
 # this button is not connected to any other logic, it just causes a plain
 # rerun.
-#st.button("Re-run")
+st.button("Re-run")
