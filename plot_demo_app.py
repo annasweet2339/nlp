@@ -1,5 +1,5 @@
 import streamlit as st
-st.with('我的第一個')
+st.write('我的第一個')
 #import time
 #import numpy as np
 #progress_bar = st.sidebar.progress(0)
