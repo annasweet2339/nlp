@@ -20,7 +20,9 @@ components.html(
         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
           <div class="card-body">
             Collapsible Group Item #1 打開來囉
+            <img src="https://cats.lovetoknow.com/image/246623~siberian-cat.jpg" alt="cat" width="24" height="39">
           </div>
+          
         </div>
       </div>
       <div class="card">
