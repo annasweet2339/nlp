@@ -1,4 +1,4 @@
-
+# 來源 https://subscription.packtpub.com/book/data/9781800565500/2/ch02lvl1sec07/streamlit-plotting-demo
 import streamlit as st
 import time
 import numpy as np
