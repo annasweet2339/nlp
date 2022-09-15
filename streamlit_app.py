@@ -2,7 +2,8 @@
 # My first app
 Here's our first attempt at using data to create a table:
 """
-
+import streamlit as st
+st.write('我的第一個 隨便印個東西')
 import streamlit as st
 import pandas as pd
 df = pd.DataFrame({
