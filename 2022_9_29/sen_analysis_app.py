@@ -14,7 +14,7 @@ st.write('您選擇的是:', option)
 response = requests.get(
     "https://m.weibo.cn/search?containerid=100103type%3D1%26q%3D{string}".format(string=option))
 # st.markdown(response)
-soup = BeautifulSoup(response.text, features="lxml")  # "html.parser"
+soup = BeautifulSoup(response.text, "html.parser")
 st.markdown(soup.prettify())
 # print(soup.prettify())  #輸出排版後的HTML內容
 result = soup.find_all("div", class_="weibo-text", limit=3)

@@ -1,4 +1,16 @@
-p {
-    text-indent: 50em;
-    color: rgb(233, 98, 19);
+h1{
+    text-indent: 0em;
+    text-align: center;
+    color:red;
+}
+p{
+    text-indent: 2.5em;
+    text-align: center;
+    color: navy;
+}
+img{
+    width: 350px; 
+    margin-right: auto;
+    margin-left: auto;
+    float:left;
 }
